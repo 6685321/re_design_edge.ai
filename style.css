@@ -510,6 +510,14 @@ html {
     display: none;
   }
 
+  .small_down{
+    display: none;
+  }
+
+  #small_date{
+    display: none;
+  }
+
   @media screen and (max-width:960px){
     html {
       background-color: #FFFFFF;
@@ -528,6 +536,10 @@ html {
     .top{
       /* background-color: #C99101; */
       height: 83px;
+    }
+
+    .nav{
+      margin-right: 42px;
     }
 
     .normal_pic{
@@ -582,7 +594,7 @@ html {
     }
 
     .lower_half{
-      padding-top: 21px;
+      padding-top: 0;
     }
 
     .blue{
@@ -596,6 +608,17 @@ html {
     .word{
       font-size: 18px;
       text-align: center;
+    }
+
+    .up_hr_img{
+      display: none;
+    }
+
+    .up_hr{
+      display: flex;
+      width: 540.35px;
+      margin: 0;
+      margin-bottom: 21px;
     }
 
     .square_pic{
@@ -731,6 +754,11 @@ html {
       justify-content: space-between;
     }
 
+    .small_down{
+      display: flex;
+    }
+    
+
 
 
 
@@ -741,6 +769,12 @@ html {
       background-color: #376C83;
       box-sizing: border-box;
     } */
+
+    .bg_all{
+      /* background-color: #C99101; */
+      background-image: url(img/small_bg.png);
+      width: 393px;
+    }
 
     .bg {
       width: 393px;
@@ -1077,6 +1111,7 @@ html {
         background-image: url(img/samll_new.png);
         width: 393px;
         height: 527px;
+        margin-top: 23px;
       }
 
       .connect_news{
@@ -1109,6 +1144,16 @@ html {
         margin: 12px 12px;
         display: flex;
         flex-direction: column;
+      }
+
+      .news_literal{
+        width: 193px;
+      }
+
+      #small_date{
+        height: 16px;
+        font-size: 10px;
+        color: #000000;
       }
 
       /* .serve_word{
@@ -1144,17 +1189,40 @@ html {
       } */
 
       .info_bottom{
-        width: 217px;
+        /* width: 217px; */
         height: 64px;
+        text-align: center;
+        /* margin: auto; */
+        /* margin-bottom: 22px; */
+        justify-content: flex-start;
       }
+
+      .gmail{
+        width: 300px;
+        /* width: auto; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        margin: auto;
+      }
+
 
       .left_icon{
         width: 346px;
-        margin-top: 22px;
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .small_down{
         width: 346px;
+      }
+
+      .small_icon{
+        padding-right: 20px;
       }
 
       .bottom_all{
@@ -1172,14 +1240,28 @@ html {
         padding: 0;
         width: 346px;
         height: 208px;
+        text-align: center;
       }
 
-      .bottom_icon{
+      .small_down{
+        display: flex;
       }
 
       .small_goai{
         height: 54px;
         width: 168px;
+      }
+
+      .small_info_bottom{
+        height: 64px;
+      }
+
+      .bottom_icon{
+        margin-bottom: 8.91px;
+      }
+
+      #small_down_word{
+        margin-top: 9px;
       }
 
 
