@@ -307,6 +307,10 @@ html {
     /* background-color: transparent; */
   }
 
+  .small_plug-in_development{
+    display: none;
+  }
+
   .digital_title{
     font-size: 32px;
   }
@@ -809,7 +813,7 @@ html {
       /* padding-bottom:1px; */
       border: 0;
       /* background-color: #FFFFFF; */
-      box-shadow : 0px -2px 0px #aaa;
+      box-shadow : 0px -2px 5px -2px #aaa;
       
     }
 
@@ -830,6 +834,353 @@ html {
       display:block;
       }
 
+      .pic_introduce{
+        background-image: url(img/small_intr.png);
+        height: 555px;
+        /* justify-content: flex-start; */
+      }
+
+      .gen{
+        font-size: 12px;
+      }
+
+      .plug_intr{
+        font-size: 16px;
+      }
+
+      .up_hr_img{
+        display: none;
+      }
+
+      .up_hr{
+        border: 1px gray solid;
+        width: 272px;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 13px;
+      }
+
+      .upper_half{
+        /* margin-top: 59.45px; */
+        padding: 0;
+        margin: 0;
+      }
+
+      .lower_half{
+        padding: 0;
+      }
+
+      .blue{
+        width: 190px;
+        height: 236px;
+        /* display: flex;
+        flex-direction: column; */
+      }
+
+      .rect{
+        width: 190px;
+        height: 236px;
+        flex-direction: column;
+      }
+
+      .three_line{
+        display: none;
+      }
+
+      .word{
+        padding-top: 12px;
+      }
+
+      .square{
+        padding-bottom: 24px;
+      }
+
+      .lower_half{
+        margin-bottom: 38.18px;
+      }
+
+      .part2{
+        padding-top: 53px;
+      }
+      
+      .four_item{
+        flex-direction: column;
+      }
+
+      #part_1{
+        display: none;
+      }
+
+      .four_item{
+        height: 398px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;        
+      }
+
+      .part{
+        /* width: 319px;
+        height: 125px; */
+        height: 398px;
+        display: flex;
+        flex-direction: row;
+      }
+      
+      .part_pic{
+        width: 98px;
+        height: 98px;
+      }
+
+      .small_part{
+        margin-left: 10px;
+      }
+
+      .part{
+        width: 319px;
+        height: 125px;
+        box-shadow : 2px 3px 5px 0px #aaa;
+        align-items: center;
+        /* justify-content: center; */
+        padding-left: 13px;
+      }
+
+      .more{
+        margin: 0;
+        margin-top: 25px;
+      }
+
+      .robot{
+        display: none;
+      }
+
+      #mid_blue{
+        display: none;
+      }
+
+      .make_process{
+        /* position: static; */
+        width: 329px;
+        height: 192.87px;
+        /* z-index: 0; */
+        /* background-color: #C99101; */
+      }
+
+      .plug-in_development{
+        display: none;
+      }
+
+      .small_plug-in_development{
+        margin: 0;
+        margin-top: 61.22px;
+        display: flex;
+        flex-direction: column;
+        width: 393px;
+        /* justify-content: center; */
+        align-items: center;
+      }
+
+      .small_process{
+        width: 361px;
+        height: 189px;
+        background-color: #376C83;
+        margin-bottom: 14px;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        border-radius: 22px;
+        box-shadow: 0px 2px 5px 0px #aaa;
+        margin-top: 17px;
+
+      }
+
+      #branch{
+        height: 217px;
+      }
+
+      .process_part{
+        padding-bottom: 6px;
+      }
+
+      .small_three_icon{
+        width: 22.03px;
+        height: 108.63px;
+        background-image: url(img/small_three_icon.png);
+      }
+
+      .small_adjust{
+        width: 329px;
+        height: 192.87px;
+      }
+      
+      .left_bottom{
+        margin: 0;
+      }
+
+      .left_word{
+        height: 123px;
+      }
+
+      .title_1{
+        font-size: 16px;
+        color: #F5DE6F;
+      }
+
+      .text_1{
+        font-size: 12px;
+        color: #FFFFFF;
+      }
+
+      #change_white{
+        color: #F5DE6F;
+      }
+
+      .digital_title{
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 10px;
+      }
+
+      .guest{
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      #change{
+        width: 187px;
+      }
+
+      .process_icon{
+        padding-top: 5px;
+      }
+
+      .video{
+        width: 393px;
+        padding-top: 14px;
+      }
+
+      .yt_video{
+        margin-top: 25px;
+        width: 265.92px;
+        height: 168.01px;
+      }
+
+      .fix{
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .blue_line{
+        width: 113px;
+      }
+
+      .news{
+        background-image: url(img/samll_new.png);
+        width: 393px;
+        height: 527px;
+      }
+
+      .connect_news{
+        display: flex;
+        flex-direction: column;
+        width: 319px;
+        height: 366px;
+      }
+
+      #small_none{
+        display: none;
+      }
+
+      .news_part{
+        width: 319px;
+        height: 114px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+        padding-left: 12px;
+      }
+
+      .news_pic{
+        width: 90px;
+        height: 90px;
+      }
+
+      .news_word{
+        padding: 0;
+        margin: 12px 12px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* .serve_word{
+        padding: 0;
+        width: 75px;
+        height: 33px;
+      } */
+
+      .connect_news{
+        padding: 0;
+        padding-top: 25px;
+        width: 319px;
+        /* height: 366px; */
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .down{
+        width: 393px;
+        height: 246px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+      }
+
+      /* .small_group{
+        display: flex;
+        flex-direction: column;
+        width: 346px;
+        height: 208px;
+      } */
+
+      .info_bottom{
+        width: 217px;
+        height: 64px;
+      }
+
+      .left_icon{
+        width: 346px;
+        margin-top: 22px;
+      }
+
+      .small_down{
+        width: 346px;
+      }
+
+      .bottom_all{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 348px;
+        height: 208px;
+
+      }
+
+      .bottom_word{
+        padding: 0;
+        width: 346px;
+        height: 208px;
+      }
+
+      .bottom_icon{
+      }
+
+      .small_goai{
+        height: 54px;
+        width: 168px;
+      }
 
 
   }
