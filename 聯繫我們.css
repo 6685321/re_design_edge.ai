@@ -1,0 +1,367 @@
+.list{  background-color: #cccccc;       /*容器*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('圖片/1440/聯繫我們/聯繫我們.png');
+
+
+    display: flex;
+    justify-content: center; /*水平置中*/
+}
+.box-a{    /*項目*/
+    flex: none;
+    width: 440px;
+    margin-top: 161px;  margin-bottom: 66px;
+    height: 523px;
+
+    display: flex;
+    justify-content: center; /*水平置中*/
+
+    background: #F5F5F5;
+    border-radius: 15px;
+}
+.card{ /*background-color: #ffcccc;/**/
+    flex: none;
+
+    width: 308px;
+    margin-right: 20px; margin-left: 20px; margin-top: 40px;
+}
+.card-bar{ background-color: #ffedcc;
+    width: 308px; height: 39px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+
+    display: flex;
+}
+.card-bar-4{ background-color: #ffedcc;
+    width: 308px; height: 39px;
+    margin-bottom: 22px;
+    border-radius: 8px;
+
+    display: flex;
+}
+.card-bar-pic{ background-color: #EBEBEB;
+    width: 39px; height: 39px;
+    border-radius: 8px 0px 0px 8px;
+    border-top: 1.5px solid #9E9E9E;
+    border-left: 1.5px solid #9E9E9E;
+    border-bottom: 1.5px solid #9E9E9E;
+}
+.pic-name{
+    background-repeat: no-repeat;
+    background-position: center center;/**/
+    background-image: url('圖片/1440/聯繫我們/icon_name.png');
+}
+.pic-phone{
+    background-repeat: no-repeat;
+    background-position: center center;/**/
+    background-image: url('圖片/1440/聯繫我們/icon_phone.png');
+}.pic-mail{
+    background-repeat: no-repeat;
+    background-position: center center;/**/
+    background-image: url('圖片/1440/聯繫我們/icon_mail.png');
+}.pic-bag{
+    background-repeat: no-repeat;
+    background-position: center center;/**/
+    background-image: url('圖片/1440/聯繫我們/icon_bag.png');
+}
+
+
+
+.card-bar-word{ 
+    width: 269px; height: 37px;
+    border-radius: 0px 8px 8px 0px;
+    border: 1.5px solid #9E9E9E;
+
+    font-size: 16px; font-family: Inter; letter-spacing: 0.17em; padding-left: 15px;
+}
+
+
+.card-comment{
+    font-size: 16px; 
+    font-family: Noto Sans; 
+    line-height: 22px;   
+    padding-left: 18px; 
+    padding-right: 18px; 
+    padding-top: 11px;   
+    
+    width: 271px; 
+    height: 137px;   
+    margin-bottom: 27px; 
+    border-radius: 8px;
+}
+
+
+
+.card-send{
+    width: 308px; height: 39px;
+    background: #376C83;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+
+    text-align: center;
+    line-height: 39px;    /*與包著的區塊同高，會文字上下置中*/
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 961px){
+    .list{  /*background-color: #cccccc;       /*容器*/
+        /*background-image: url('圖片/960/聯繫我們/聯繫我們.png');/**/
+    
+        display: flex;
+        justify-content: center; /*水平置中*/
+}
+
+
+
+    .box-a{    /*項目*/
+        flex: none;
+
+        width: 372.7px; height: 483px;
+        margin-top: 161px;  margin-bottom: 66px;
+
+        display: flex;
+        justify-content: center; /*水平置中*/
+
+        background: #F5F5F5;
+        border-radius: 15px;
+    }
+
+
+
+    .card{ /*background-color: #ffcccc;/**/
+        flex: none;
+
+        width: 261px;
+        margin-top: 38.96px;
+
+        margin-right: 55.9px; margin-left: 55.9px; 
+    }
+    .card-bar{ background-color: #ffedcc;
+        width: 260.89px; height: 33px;
+        margin-bottom: 13.55px;
+        border-radius: 8px;
+
+        display: flex;
+    }
+    .card-bar-4{ background-color: #80632e;
+        width: 260.89px; height: 33px;
+        margin-bottom: 18.63px;
+        border-radius: 8px;
+
+        display: flex;
+    }
+
+    .card-bar-pic{ background-color: #EBEBEB;
+        width: 33px; height: 33px;
+        border-radius: 8px 0px 0px 8px;
+        border-top: 1.5px solid #9E9E9E;
+        border-left: 1.5px solid #9E9E9E;
+        border-bottom: 1.5px solid #9E9E9E;
+    }
+    .pic-name{
+        background-image: url('圖片/960/聯繫我們/icon_name.png');
+    }
+    .pic-phone{
+        background-image: url('圖片/960/聯繫我們/icon_phone.png');
+    }.pic-mail{
+        background-image: url('圖片/960/聯繫我們/icon_mail.png');
+    }.pic-bag{
+        background-image: url('圖片/960/聯繫我們/icon_bag.png');
+    }
+
+
+
+
+    .card-bar-word{ 
+        width: 260.89px; height: 31px;
+        border-radius: 0px 8px 8px 0px;
+        border: 1.5px solid #9E9E9E;
+
+        font-family: 'Inter'; 
+        letter-spacing: 0.17em; 
+        padding-left: 15px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+
+
+    .card-comment{
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #9E9E9F;
+
+        padding-left: 16px; 
+        padding-right: 16px; 
+        padding-top: 11px;   
+        width: 228px; 
+        height: 125x;   
+        margin-bottom: 22.87px; 
+        border-radius: 8px;
+    }
+
+    .card-send{
+        width: 260.89px; height: 32.19px;
+        background: #376C83;
+        border-radius: 8px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+        color: #FFFFFF;
+
+        text-align: center;
+        line-height: 32.19px;    /*與包著的區塊同高，會文字上下置中*/
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 394px){ /* 螢幕小於 500px, 套用這個區塊的 CSS */
+    .list{  /*background-color: #cccccc;       /*容器*/
+        display: flex;
+        justify-content: center; /*水平置中*/
+
+        height: 730px;
+    }
+    
+    .box-a{    /*項目*/
+        flex: none;
+        width: 100%;
+        margin-top: 0px;  margin-bottom: 66px;
+        height: 523px;
+    
+        display: flex;
+        justify-content: center; /*水平置中*/
+    
+        background: #ffffff00;
+        border-radius: 15px;
+    }
+
+
+    .card{ /*background-color: #ffcccc;/**/
+        flex: none;
+    
+        width: 323px; height: 481px;
+        margin-top: 105px; 
+        padding-bottom: 48px;
+    }
+    .card-bar{ background-color: #ffedcc;
+        width: 323px; height: 41px;
+        margin-bottom: 19px;
+        border-radius: 8px; /*可能改小一點*/
+    
+        display: flex;
+    }
+    .card-bar-4{ background-color: #ffedcc;
+        width: 323px; height: 41px;
+        margin-bottom: 38.58px;
+        border-radius: 8px;
+    
+        display: flex;
+    }
+    .card-bar-pic{ background-color: #EBEBEB;
+        width: 43px; height: 43px;
+        border-radius: 8px 0px 0px 8px;
+        border-top: 1.5px solid #9E9E9E;
+        border-left: 1.5px solid #9E9E9E;
+        border-bottom: 1.5px solid #9E9E9E;
+    }
+    .pic-name{
+        background-image: url('圖片/394/聯繫我們/icon_name.png');
+    }
+    .pic-phone{
+        background-image: url('圖片/394/聯繫我們/icon_phone.png');
+    }.pic-mail{
+        background-image: url('圖片/394/聯繫我們/icon_mail.png');
+    }.pic-bag{
+        background-image: url('圖片/394/聯繫我們/icon_bag.png');
+    }
+
+    .card-bar-word{ 
+        width: 282px; height: 41px;
+        border-radius: 0px 8px 8px 0px;
+        border: 1.5px solid #9E9E9E;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.17em;
+        color: #BABABA;
+    }
+
+
+    .card-comment{        
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        color: #BABABA;
+
+        padding-left: 18px;
+        padding-right: 18px; 
+        padding-top: 11px;   
+        
+        width: 285.8px; 
+        height: 137px;   
+        margin-bottom: 27px; 
+        border-radius: 8px;
+    }
+
+
+    
+    .card-send{
+        width: 185px; height: 40px;
+        background: #376C83;
+        border-radius: 8px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.2em;
+        color: #FFFFFF;
+        
+    
+        text-align: center;
+        line-height: 40px;    /*與包著的區塊同高，會文字上下置中*/
+        margin-bottom: 48px;
+    
+        margin:0px auto; /*按鈕置中*/
+    }
+}

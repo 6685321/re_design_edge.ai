@@ -1,22 +1,22 @@
-.list{  background-color: #cccccc;       /*容器*/
+.list{  background-color:  #F5F5F5;       /*容器*/
     display: flex;
     justify-content: center; /*水平置中*/
 }
-.box{  background-color: #ccfaff8d;   /*項目*/
+.box{  /*background-color: #ccfaff8d;   /*項目*/
     flex: none;
     width: 80%;
     margin-top: 203px; margin-bottom: 117px;
     margin-left: 297px; margin-right: 297px;
     height: 810px;
 }
-.box-a{  background-color: #4464f48d;   /*項目*/
+.box-a{  /*background-color: #4464f48d;   /*項目*/
     height: 378px;
     margin-bottom: 54px;
 
     display: flex;
     justify-content: center; /*水平置中*/
 }
-.box-b{  background-color: #44f44d8d;   /*項目*/
+.box-b{  /*background-color: #44f44d8d;   /*項目*/
     height: 378px;
     margin-bottom: 117px;
 
@@ -29,7 +29,7 @@
     display: none;
 }
 
-.card{ background-color: #ffcccc;
+.card{ background-color: #FFFFFF;/**/
     flex: none;
 
     height: 378px; width: 255px;
@@ -37,9 +37,34 @@
 
     box-shadow: 1px 3px 12px rgb(170, 170, 170);
 }
-.card-pic{ background-color: #fff8cc;
+.card-pic{ /*background-color: #fff8cc;*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     height: 244px;
 }
+.pic-sh{
+    background-image: url('圖片/1440/服務項目/虛擬測量.png');
+}
+.pic-yi{
+    background-image: url('圖片/1440/服務項目/異常偵測.png');
+}
+.pic-gon{
+    background-image: url('圖片/1440/服務項目/根因分析.png');
+}
+.pic-chi{
+    background-image: url('圖片/1440/服務項目/異常偵測.png');
+}
+.pic-gou{
+    background-image: url('圖片/1440/服務項目/根因分析.png');
+}
+.pic-yu{
+    background-image: url('圖片/1440/服務項目/預防性保養.png');
+}
+
+
+
+
 .card-word-a{
     font-family: 'Noto Sans';
     font-style: normal;
@@ -55,32 +80,32 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 19px;
     color: #000000;
 
     margin-left: 16px; 
 }
 
 @media (max-width: 961px){
-    .list{  background-color: #cccccc;       /*容器*/
+    .list{  
         display: flex;
         justify-content: center; /*水平置中*/
     }
-    .box{  background-color: #ccfaff8d;   /*項目*/
+    .box{ 
         flex: none;
         width: 80%;
         margin-top: 166px; margin-bottom: 117px;
         margin-left: 297px; margin-right: 297px;
         height: 613px;
     }
-    .box-a{  background-color: #4464f48d;   /*項目*/
+    .box-a{  
         height: 291px;
         margin-bottom: 31px;
     
         display: flex;
         justify-content: center; /*水平置中*/
     }
-    .box-b{  background-color: #44f44d8d;   /*項目*/
+    .box-b{
         height: 291px;
     
         display: flex;
@@ -88,7 +113,7 @@
     }
     
     
-    .card{ background-color: #ffcccc;
+    .card{ 
         flex: none;
     
         height: 291px; width: 196px;
@@ -96,7 +121,7 @@
     
         box-shadow: 1px 3px 12px rgb(170, 170, 170);
     }
-    .card-pic{ background-color: #fff8cc;
+    .card-pic{ 
         height: 188px;
     }
     .card-word-a{
@@ -113,7 +138,7 @@
         font-family: 'Noto Sans';
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 10px;
         line-height: 16px;
         
         color: #000000;
@@ -126,7 +151,7 @@
 
 
 @media (max-width: 394px){
-    .box{  background-color: #ccfaff8d;   /*項目*/
+    .box{ 
         flex: none;
         width: 100%;
         margin-top: 0px; margin-bottom: 0px;
@@ -134,13 +159,13 @@
         height: 810px;
     }
 
-    .list{  background-color: #cccccc;       /*容器*/
+    .list{ 
         display: flex;
         justify-content: center; /*水平置中*/
     }
-    .box-a{  background-color: #298d2e8d;   /*項目*/
+    .box-a{  /*background-color: #fff;/**/
         height: 845px; width: 100%;
-        margin-top: 46px;
+        margin-top: 76px;
         padding-bottom: 29px;
     
         display: block;
@@ -156,7 +181,7 @@
     }
 
     
-    .card{ background-color: #ffcccc;
+    .card{
         flex: none;
         height: 126px; width: 319px;
         box-shadow: 1px 3px 12px rgb(170, 170, 170);
@@ -164,7 +189,7 @@
         margin:0px auto; /*按鈕置中*/
         margin-bottom: 18px;
     }
-    .card-pic{ background-color: #fff8cc;
+    .card-pic{ 
         height: 98px; width: 98px;
     
         margin-top: 14px;
