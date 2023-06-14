@@ -15,7 +15,7 @@ html {
 
   .bg_all{
     /* background-color: #C99101; */
-    background-image: url(img/trans_bg.png);
+    background-image: url(main_img/trans_bg.png);
     width: 1440px;
   }
 
@@ -131,7 +131,7 @@ html {
   }
 
   .carousel-control-prev-icon{
-    background-image: url(img/🦆\ icon\ _arrow\ ios\ back_.png);
+    background-image: url(main_img/🦆\ icon\ _arrow\ ios\ back_.png);
     width: 84.31px;
     height: 82.16px;
 
@@ -142,13 +142,13 @@ html {
   }
 
   .carousel-control-next-icon{
-    background-image: url(img/🦆\ icon\ _arrow\ ios\ forward_.png);
+    background-image: url(main_img/🦆\ icon\ _arrow\ ios\ forward_.png);
     width: 84.31px;
     height: 82.16px;
   }
 
   .pic_introduce{
-    background-image: url(img/intr.png);
+    background-image: url(main_img/intr.png);
     width: auto;
     height: 752px;
     display: flex;
@@ -396,7 +396,7 @@ html {
 
 
   .news{
-    background-image: url(img/new.png);
+    background-image: url(main_img/new.png);
     height: 664px;
     margin-top: 83px;
     display: flex;
@@ -406,7 +406,7 @@ html {
   }
 
   .news_pic{
-    background-image: url(img/Rectangle\ 11.png);
+    background-image: url(main_img/Rectangle\ 11.png);
     Width: 255px;
     Height: 220px;
   }
@@ -525,7 +525,7 @@ html {
 
     .bg_all{
       /* background-color: #C99101; */
-      background-image: url(img/trans_bg.png);
+      background-image: url(main_img/trans_bg.png);
       width: 960px;
     }
 
@@ -566,7 +566,7 @@ html {
     }
 
     .pic_introduce{
-      background-image: url(img/mid_intr.png);
+      background-image: url(main_img/mid_intr.png);
       height: 501.66px;
     }
 
@@ -678,7 +678,7 @@ html {
     }
 
     .news{
-      background-image: url(img/mid_down.png);
+      background-image: url(main_img/mid_down.png);
       height: 445.9px;
       margin-top: 93.1px;
     }
@@ -693,7 +693,7 @@ html {
     }
 
     .news_pic{
-      background-image: url(img/mid_news.png);
+      background-image: url(main_img/mid_news.png);
       Width: 197px;
       Height: 169.7px;
     }
@@ -772,7 +772,7 @@ html {
 
     .bg_all{
       /* background-color: #C99101; */
-      background-image: url(img/small_bg.png);
+      background-image: url(main_img/small_bg.png);
       width: 393px;
     }
 
@@ -869,7 +869,7 @@ html {
       }
 
       .pic_introduce{
-        background-image: url(img/small_intr.png);
+        background-image: url(main_img/small_intr.png);
         height: 555px;
         /* justify-content: flex-start; */
       }
@@ -1038,7 +1038,7 @@ html {
       .small_three_icon{
         width: 22.03px;
         height: 108.63px;
-        background-image: url(img/small_three_icon.png);
+        background-image: url(main_img/small_three_icon.png);
       }
 
       .small_adjust{
@@ -1108,7 +1108,7 @@ html {
       }
 
       .news{
-        background-image: url(img/samll_new.png);
+        background-image: url(main_img/samll_new.png);
         width: 393px;
         height: 527px;
         margin-top: 23px;
