@@ -73,7 +73,10 @@
     line-height: 33px;
     color: #376C83;
 
-    margin-left: 16px; margin-top: 16px; margin-bottom: 7px;
+    margin-left: 16px; margin-top: -10px; margin-bottom: 7px;
+}
+.word-a-margin{
+    margin-top: 18.5px;
 }
 .card-word-b{
     font-family: 'Noto Sans';
@@ -132,7 +135,10 @@
         line-height: 26px;
         color: #376C83;
     
-        margin-left: 12px; margin-top: 11.6px; margin-bottom: 3.4px;
+        margin-left: 12px; margin-top: -14px; margin-bottom: 3.4px;
+    }
+    .word-a-margin{
+        margin-top: 11px;
     }
     .card-word-b{
         font-family: 'Noto Sans';
