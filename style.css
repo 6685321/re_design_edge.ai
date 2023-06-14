@@ -67,6 +67,8 @@ html {
   .nav{
     align-items: end;
     /* position: fixed; */
+    /* display: flex;
+    justify-content: flex-end; */
   }
 
   .nav-list {
