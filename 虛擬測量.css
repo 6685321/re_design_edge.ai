@@ -1,3 +1,8 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .version-phone{
     display: none;
 }
@@ -113,6 +118,8 @@
 
 
 
+
+
 @media (max-width: 961px){ 
     .back{ /*background-color: #ffcccc;*/
         margin-top: 28px;
@@ -131,6 +138,7 @@
         display: flex;
         justify-content: center; /*水平置中*/
         height: 641px;
+        width: 960px;
     }
     .box-a{  /*background-color: #ccfaff8d;   /*項目*/
         flex: none;
@@ -208,6 +216,11 @@
     }
 }
 
+
+
+
+
+
 @media(max-width: 394px){
     .version-phone{
         display: block;
@@ -238,7 +251,7 @@
 
         position: relative;
         
-        height: 761px;
+        height: 510px;
         width: 393px;/**/
     
         display: flex;
@@ -309,4 +322,4 @@
         margin-top: 8px;
         margin-right: 8px;
     }
-}
+} 
