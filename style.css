@@ -290,6 +290,11 @@ html {
   .blue_title{
     font-size: 24px;
     color: #376C83;
+    margin-top: 16px;
+  }
+
+  .small_part{
+    margin-left: 16px;
   }
 
   .small_word{
@@ -992,6 +997,7 @@ html {
 
       .small_part{
         margin-left: 10px;
+        /* margin-top: 100px; */
       }
 
       .part{

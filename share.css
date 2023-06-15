@@ -9,7 +9,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.use{    background-color: #ccdcff;
+.use{    /*background-color: #ccdcff;/**/
     position: absolute; z-index: 1;
 
     height: 49px;
@@ -21,10 +21,15 @@ body{
 
     margin-top: 61px;
 }
+.use-service{
+    color: #000000;
+}
+
 .use-line{
     height: 5px; width: 228px; background: #00B1C4;
     margin: 0 auto; /* 將左右 margin 設為 auto */
 }
+
 
 
 @media (max-width: 394px){ /*手機*/
@@ -39,7 +44,7 @@ body{
         font-family: Arial, Helvetica, sans-serif;
     }
     
-    .use{    background-color: #ccdcff;
+    .use{    /*background-color: #ccdcff;/**/
         position: absolute; z-index: 1;
     
         height: 33px;
@@ -47,13 +52,22 @@ body{
         text-align: center;
     
         justify-content: center; /* 區塊水平置中 */
-        width: 100%; /* 設定寬度為父元素的寬度 */
+        width: 393px; /* 設定寬度為父元素的寬度 */
     
-        margin-top: 24px;
+        margin-top: 30px;
     }
+    
     .use-line{
         height: 3px; width: 113px; background: #00B1C4;
         margin: 0 auto; /* 將左右 margin 設為 auto */
     }
-    
+
+
+
+    .use-contact-us{
+        color:  #FFFFFF;
+    }
+    .use-line-contact-us{
+        background: #F5DE6F;
+    }
 }

@@ -1,3 +1,9 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 .list{  background-color: #cccccc;       /*容器*/
     background-repeat: no-repeat;
     background-position: center center;
@@ -26,14 +32,14 @@
     width: 308px;
     margin-right: 20px; margin-left: 20px; margin-top: 40px;
 }
-.card-bar{ background-color: #ffedcc;
+.card-bar{ /*background-color: #ffedcc;/**/
     width: 308px; height: 39px;
     margin-bottom: 16px;
     border-radius: 8px;
 
     display: flex;
 }
-.card-bar-4{ background-color: #ffedcc;
+.card-bar-4{ /*background-color: #ffedcc;/**/
     width: 308px; height: 39px;
     margin-bottom: 22px;
     border-radius: 8px;
@@ -121,7 +127,8 @@
 @media (max-width: 961px){
     .list{  /*background-color: #cccccc;       /*容器*/
         /*background-image: url('圖片/960/聯繫我們/聯繫我們.png');/**/
-    
+        width: 100%;
+
         display: flex;
         justify-content: center; /*水平置中*/
 }
@@ -151,14 +158,14 @@
 
         margin-right: 55.9px; margin-left: 55.9px; 
     }
-    .card-bar{ background-color: #ffedcc;
+    .card-bar{
         width: 260.89px; height: 33px;
         margin-bottom: 13.55px;
         border-radius: 8px;
 
         display: flex;
     }
-    .card-bar-4{ background-color: #80632e;
+    .card-bar-4{ 
         width: 260.89px; height: 33px;
         margin-bottom: 18.63px;
         border-radius: 8px;
@@ -254,6 +261,7 @@
         justify-content: center; /*水平置中*/
 
         height: 730px;
+        width: 393px;
     }
     
     .box-a{    /*項目*/
@@ -277,22 +285,22 @@
         margin-top: 105px; 
         padding-bottom: 48px;
     }
-    .card-bar{ background-color: #ffedcc;
+    .card-bar{ /*background-color: #ffedcc;/**/
         width: 323px; height: 41px;
         margin-bottom: 19px;
         border-radius: 8px; /*可能改小一點*/
     
         display: flex;
     }
-    .card-bar-4{ background-color: #ffedcc;
+    .card-bar-4{ /*background-color: #ffedcc;/**/
         width: 323px; height: 41px;
         margin-bottom: 38.58px;
         border-radius: 8px;
     
         display: flex;
     }
-    .card-bar-pic{ background-color: #EBEBEB;
-        width: 43px; height: 43px;
+    .card-bar-pic{ background-color: #FFFFFF;
+        width: 52px; height: 43px;
         border-radius: 8px 0px 0px 8px;
         border-top: 1.5px solid #9E9E9E;
         border-left: 1.5px solid #9E9E9E;
@@ -309,10 +317,10 @@
         background-image: url('圖片/394/聯繫我們/icon_bag.png');
     }
 
-    .card-bar-word{ 
+    .card-bar-word{ background-color: #ffffff00;    
         width: 282px; height: 41px;
         border-radius: 0px 8px 8px 0px;
-        border: 1.5px solid #9E9E9E;
+        border: 1.5px solid #FFFFFF;
     
         font-family: 'Inter';
         font-style: normal;
@@ -320,17 +328,17 @@
         font-size: 14px;
         line-height: 17px;
         letter-spacing: 0.17em;
-        color: #BABABA;
+        color: #FFFFFF;
     }
 
 
-    .card-comment{        
+    .card-comment{   background-color: #ffffff00;     
         font-family: 'Noto Sans';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 19px;
-        color: #BABABA;
+        border: 1.5px solid #FFFFFF;
 
         padding-left: 18px;
         padding-right: 18px; 
@@ -340,6 +348,9 @@
         height: 137px;   
         margin-bottom: 27px; 
         border-radius: 8px;
+
+        
+        color: #FFFFFF;
     }
 
 

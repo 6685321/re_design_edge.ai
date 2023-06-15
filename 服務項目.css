@@ -1,3 +1,8 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .list{  background-color:  #F5F5F5;       /*容器*/
     display: flex;
     justify-content: center; /*水平置中*/
@@ -73,7 +78,10 @@
     line-height: 33px;
     color: #376C83;
 
-    margin-left: 16px; margin-top: 16px; margin-bottom: 7px;
+    margin-left: 16px; margin-top: -10px; margin-bottom: 7px;
+}
+.word-a-margin{
+    margin-top: 18.5px;
 }
 .card-word-b{
     font-family: 'Noto Sans';
@@ -98,11 +106,11 @@
         margin-left: 297px; margin-right: 297px;
         height: 613px;
     }
-    .box-a{  
+    .box-a{   /*background-color: #ff9090;/**/
         height: 291px;
-        margin-bottom: 31px;
+        margin-bottom: 50px;
     
-        display: flex;
+        display: flex;/**/
         justify-content: center; /*水平置中*/
     }
     .box-b{
@@ -113,18 +121,18 @@
     }
     
     
-    .card{ 
-        flex: none;
+    .card{ /*background-color: #e85c5c;/**/
+        flex: none;/**/
     
-        height: 291px; width: 196px;
+        height: 310px; width: 210px;
         margin-right: 14px; margin-left: 14px; 
     
         box-shadow: 1px 3px 12px rgb(170, 170, 170);
-    }
+        }
     .card-pic{ 
-        height: 188px;
+        height: 210px;
     }
-    .card-word-a{
+    .card-word-a{ /*background-color: #929bfa;/**/
         font-family: 'Noto Sans';
         font-style: normal;
         font-weight: 400;
@@ -132,19 +140,26 @@
         line-height: 26px;
         color: #376C83;
     
-        margin-left: 12px; margin-top: 11.6px; margin-bottom: 3.4px;
+        margin-left: 12px; margin-top: px; margin-bottom: 3.4px;
+    
+        text-align:left;
     }
-    .card-word-b{
+    .word-a-margin{
+        margin-top: 11px;
+    }
+    .card-word-b{ 
         font-family: 'Noto Sans';
         font-style: normal;
         font-weight: 400;
         font-size: 10px;
-        line-height: 16px;
+        line-height: 18px;
         
         color: #000000;
 
         margin-left: 12px;
         margin-right: 12px;
+
+        text-align:left;
     }
 }
 
@@ -159,11 +174,14 @@
         height: 810px;
     }
 
-    .list{ 
+    .list{ /*background-color: #944646;/**/
         display: flex;
         justify-content: center; /*水平置中*/
+
+        width: 393px;
+        height: 845px;
     }
-    .box-a{  /*background-color: #fff;/**/
+    .box-a{  /*background-color: #944646;/**/
         height: 845px; width: 100%;
         margin-top: 76px;
         padding-bottom: 29px;
@@ -207,7 +225,7 @@
         line-height: 27px;
         color: #376C83;
         
-        margin-top: 16px; margin-bottom: 6px;
+        margin-top: 3px; margin-bottom: 6px;
     }
     .card-word-b{        
         font-family: 'Noto Sans';
@@ -218,5 +236,14 @@
         text-align: justify;
         
         color: #000000; 
+    }
+
+    .card-bottom{
+        /*margin-bottom: 100px;/*沒反應*/
+        padding-bottom: 100px;/*沒反應*/
+    }
+
+    .down{
+        margin-top: 120px;
     }
 }
