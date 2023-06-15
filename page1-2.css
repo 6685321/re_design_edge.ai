@@ -288,7 +288,7 @@ line-height: 1.6;
 
 .bottom_all{
     display: flex;
-
+    justify-content: center;
 }
 .small_goai{
     margin-top: 57px;
@@ -322,6 +322,7 @@ line-height: 1.6;
 }
 .small_group{
     display: flex;
+    justify-content: center;
 }
 .down_line{
     margin: 118px 0 0 0 ;
