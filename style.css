@@ -13,7 +13,7 @@ html {
     /* background-image: url(img/trans_bg.png); */
     margin: 0 auto;
     width: 1440px;
-    width: auto;
+    /* width: auto; */
   }
 
   .bg_all{
@@ -559,7 +559,7 @@ html {
 
     .nav{
       margin-left: 0;
-      /* margin-right: 42px; */
+      margin-right: 42px;
     }
 
     .normal_pic{
