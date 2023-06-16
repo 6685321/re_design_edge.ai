@@ -834,6 +834,7 @@ html {
     }
 
     .nav{
+      margin: 0;
       width: 393px;
       height: 507px;
       /* background-color: #C99101; */
@@ -892,11 +893,12 @@ html {
     } */
 
     label{
+
       display: block;
-      }
-      #burger:checked + nav{
+  }
+  #burger:checked ~ nav{
       display:block;
-      }
+  }
 
       .pic_introduce{
         background-image: url(main_img/small_intr.png);
