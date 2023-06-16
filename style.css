@@ -474,6 +474,7 @@ html {
   .bottom_all{
     display: flex;
     padding-top: 57px;
+    justify-content: center;
   }
 
   .gmail{
@@ -782,6 +783,14 @@ html {
 
     .small_down{
       display: flex;
+    }
+
+    .small_part{
+      margin: 0;
+    }
+
+    .blue_title{
+      margin: 0;
     }
     
 
