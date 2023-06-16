@@ -479,6 +479,7 @@ body{
     font-family: Arial;
     text-align: center;
     font-weight: 400;
+
 }
 nav ul li a:hover {
     color: white;
@@ -845,6 +846,7 @@ nav ul li a:hover {
     .nav-list{
       flex-direction: column;
       margin-top: 57px;
+      box-shadow : 0px -2px 5px -2px #aaa;
     }
 
     .nav-list-item-link {
@@ -867,7 +869,8 @@ nav ul li a:hover {
       /* padding-bottom:1px; */
       border: 0;
       /* background-color: #FFFFFF; */
-      box-shadow : 0px -2px 5px -2px #aaa;
+      /* box-shadow : 0px -2px 5px -2px #aaa; */
+      border-left:5px #376C83 solid;
       
     }
     .small_pic{
